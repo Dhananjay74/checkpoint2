@@ -13,8 +13,9 @@
     ></script>
   </head>
   <body>
-    <section class="background-img">
-      <header class="container">
+    <!-- Header -->
+    <header class="background-img">
+      <div class="container">
         <nav class="flex top-nav">
           <a href="#"><i class="fa-brands fa-facebook"></i></a>
           <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -26,11 +27,11 @@
           <span class="brand-name">FLEX</span>
           <nav class="nav">
             <a class="active" href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Team</a>
+            <a href="#services-btn">Services</a>
+            <a href="#portfolio-btn">Portfolio</a>
+            <a href="#team-btn">Team</a>
             <a href="gallery.html">Gallery</a>
-            <a href="#">Contact</a>
+            <a href="#contact-btn">Contact</a>
           </nav>
         </div>
         <div class="heading">
@@ -41,7 +42,38 @@
             <a href="#">let us disign!</a>
           </button>
         </div>
-      </header>
-    </section>
+      </div>
+    </header>
+    <!-- Main -->
+    <main class="container">
+      <div class="flex parent-circle">
+        <div class="small-circle active-circle"></div>
+        <div class="small-circle"></div>
+        <div class="small-circle"></div>
+      </div>
+      <!-- Services -->
+      <section id="services-btn">
+        <div class="second-heading">
+          <h2>our Services</h2>
+          <hr class="hr2" />
+          <p>we design mobile-first websites for you</p>
+          <nav class="flex">
+            <div class="box box1">
+              <a href="#"><i class="fa-regular fa-file"></i></a>
+            </div>
+            <div class="box box2">
+              <a href="#"><i class="fa-regular fa-paper-plane"></i></a>
+            </div>
+            <div class="box box3">
+              <a href="#"><i class="fa-solid fa-landmark"></i></a>
+            </div>
+            <div class="box box4">
+              <a href="#"><i class="fa-solid fa-flask"></i></a>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <!-- Portfolio -->
+    </main>
   </body>
 </html>
