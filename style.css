@@ -289,3 +289,19 @@ h2 {
 }
 
 /* portfolio section */
+
+.hr3 {
+  width: 230px;
+}
+.col {
+  flex: 0 1 22%;
+  margin: 16px;
+}
+.portfolio img {
+  width: 100%;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
