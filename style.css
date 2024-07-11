@@ -274,16 +274,16 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-.box1 {
+.nav-box1 {
   background-color: rgb(92 189 157);
 }
-.box2 {
+.nav-box2 {
   background-color: rgb(230 127 48);
 }
-.box3 {
+.nav-box3 {
   background-color: rgb(56 152 219);
 }
-.box4 {
+.nav-box4 {
   background-color: rgb(104 205 115);
 }
 
@@ -307,4 +307,62 @@ h2 {
 .team img {
   width: 100%;
   border-radius: 50%;
+}
+
+/* skill section */
+
+.third-heading {
+  text-align: center;
+  margin-top: 60px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.third-heading h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(77, 76, 76);
+}
+.third-heading p {
+  font-size: 12px;
+  color: rgb(107, 104, 104);
+}
+.graph {
+  margin-top: 28px;
+}
+.graph-box {
+  width: 300px;
+  height: 30px;
+  background-color: rgb(234 81 62);
+  text-transform: uppercase;
+  margin: 16px;
+  padding: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(255 254 254);
+}
+.box1 {
+  border-right: 30px solid rgb(231 231 231);
+}
+.box2 {
+  border-right: 60px solid rgb(231 231 231);
+}
+.box3 {
+  border-right: 90px solid rgb(231 231 231);
+}
+.box4 {
+  border-right: 60px solid rgb(231 231 231);
+}
+.col-2 {
+  margin-bottom: 40px;
+}
+.col-1 {
+  width: 60%;
+  margin-right: 32px;
+  font-style: oblique;
+}
+.side-para-p {
+  margin: 16px 0;
+}
+small {
+  color: red;
 }
