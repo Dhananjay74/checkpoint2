@@ -166,8 +166,6 @@ body {
 }
 .flex a i {
   background-color: rgb(255 255 255);
-  width: 36px;
-  height: 36px;
   border-radius: 50%;
   padding: 10px;
   margin-left: 12px;
@@ -327,11 +325,10 @@ h2 {
   color: rgb(107, 104, 104);
 }
 .graph {
-  margin-top: 28px;
+  margin-top: 32px;
 }
 .graph-box {
   width: 300px;
-  height: 30px;
   background-color: rgb(234 81 62);
   text-transform: uppercase;
   margin: 16px;
@@ -352,11 +349,9 @@ h2 {
 .box4 {
   border-right: 60px solid rgb(231 231 231);
 }
-.col-2 {
-  margin-bottom: 40px;
-}
 .col-1 {
   width: 60%;
+  margin-top: 40px;
   margin-right: 32px;
   font-style: oblique;
 }
@@ -436,7 +431,7 @@ iframe {
   font-weight: 600;
 }
 
-/* footer */
+/* footer section */
 
 .footer {
   margin: 80px 0;
@@ -458,4 +453,105 @@ button a {
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+/* GALLERY */
+
+.gallery-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside {
+  width: 30%;
+  background-color: rgb(234 81 63);
+  padding: 30px;
+  position: fixed;
+}
+
+.aside-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallery-logo img {
+  width: 60px;
+}
+
+.gallery-brand-name {
+  margin-right: 100px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 500;
+  color: rgb(255 254 254);
+}
+
+.gallery-home-btn {
+  border: 1px solid rgb(255 255 255);
+  background-color: rgb(234 81 63);
+  height: 30px;
+  border-radius: 4px;
+}
+
+.gallery-home-btn a {
+  text-transform: capitalize;
+}
+
+.aside-bottom {
+  margin-top: 360px;
+}
+
+h5 {
+  font-size: 28px;
+  font-weight: 600;
+  color: rgb(255 255 255);
+}
+
+.aside-bottom p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.gallery-margin-right {
+  margin-top: 16px;
+  margin-right: 40px;
+}
+
+.gallery-margin-right a {
+  font-size: 14px;
+  margin: 10px;
+}
+.gallery-margin-right a i {
+  color: white;
+  background-color: rgb(234 81 63);
+  border: 1px solid white;
+}
+
+.gallery-heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.gallery-col {
+  margin: 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.gallery-col img {
+  width: 100%;
+}
+
+.gallery-section {
+  width: 70%;
+  margin-left: 400px;
+}
+
+.gallery-flex-img {
+  display: flex;
+  justify-content: space-between;
 }
